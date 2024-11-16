@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "MobileProject.Controllers.MapController",
+    "Method": "GetMapStyle",
+    "RelativePath": "Map/style",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MobileProject.Controllers.MapController",
+    "Method": "GetMapTile",
+    "RelativePath": "Map/tiles/{z}/{x}/{y}.pbf",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "z",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "x",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "y",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

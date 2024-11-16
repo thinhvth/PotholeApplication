@@ -1,0 +1,26 @@
+{
+    "version": 8,
+    "sources": {
+      "custom-vector-tiles": {
+        "type": "vector",
+        "tiles": [
+          "https://localhost:7296/Map/tiles/{z}/{x}/{y}.pbf"
+        ],
+        "minzoom": 0,
+        "maxzoom": 14
+      }
+    },
+    "layers": [
+      {
+        "id": "custom-layer",
+        "type": "fill",
+        "source": "custom-vector-tiles",
+        "source-layer": "layer-name", 
+        "paint": {
+          "fill-color": "#0080ff",
+          "fill-opacity": 0.5
+        }
+      }
+    ]
+  }
+  
